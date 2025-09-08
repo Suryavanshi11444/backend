@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors({
   origin: [
-    "https://elevate-2025-two.vercel.app", "http://localhost:5000"
+    "https://elevate-2025-two.vercel.app", "http://localhost:5000", "https://elevate2025.theuniques.in"
   ],
   credentials: true, // fixed spelling
 }));
